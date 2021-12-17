@@ -1,6 +1,6 @@
-## Lesson-4
+## Lesson-11
 
-Adding routing with react-router, then creating new routes for our existing homepage and our new hats page
+Finally we update our sign-in component with our email/password sign in.
 
 # How to fork and clone
 
@@ -18,3 +18,9 @@ After forking the project, simply clone it the way you would from the new forked
 ## Install dependencies
 
 In your terminal after you clone your project down, remember to run either `yarn` or `npm install` to build all the dependencies in the project.
+
+## Set your firebase config
+
+Remember to replace the `config` variable in your `firebase.utils.js` with your own config object from the firebase dashboard! Navigate to the project settings and scroll down to the config code. Copy the object in the code and replace the variable in your cloned code.
+
+![alt text](https://i.ibb.co/6ywMkBf/Screen-Shot-2019-07-01-at-11-35-02-AM.png "image to firebase config")
